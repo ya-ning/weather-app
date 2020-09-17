@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import WeatherDisplay from './UI/layouts';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <WeatherDisplay />
   </React.StrictMode>,
   document.getElementById('root')
 );
