@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import WeatherDisplay from './UI/layouts';
+import WeatherDisplay from './container/WeatherDisplay';
 
 ReactDOM.render(
   <React.StrictMode>
