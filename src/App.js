@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+import WeatherDisplay from './container/WeatherDisplay';
+
 function App() {
   fetch(
     'http://api.openweathermap.org/data/2.5/weather?q=Taipei&appid=974c880ed3a74635d0881cafb067975c'
@@ -25,7 +27,7 @@ function App() {
   })();
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <WeatherDisplay />
     </div>
   );
 }
